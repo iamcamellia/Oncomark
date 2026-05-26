@@ -68,6 +68,7 @@ Input: Bulk RNA-seq gene expression (9,326 genes, rank-normalized)
              │
 Output: P(hallmark_i active) for i = 1..10  [values ∈ [0,1]]
 ```
+![OncoMark Workflow](OncoMark_workflow.png)
 
 **Training data:** Synthetic pseudo-bulk profiles from 3.1M single cells, 941 patients, 14 tumor types (Weizmann 3CA repository)
 
