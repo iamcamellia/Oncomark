@@ -1,0 +1,32 @@
+# OncoMark Personal Repository
+# Camellia Mazumder | S.N. Bose National Centre for Basic Sciences
+# Paper: https://doi.org/10.1038/s42003-025-08727-z
+
+# Core
+numpy>=1.24.0
+pandas>=1.5.0
+scipy>=1.10.0
+
+# Machine learning
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+
+# Deep learning (for full OncoMark model)
+torch>=2.0.0
+
+# Interpretability
+shap>=0.42.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Bioinformatics
+biopython>=1.81
+
+# Utilities
+tqdm>=4.65.0
+joblib>=1.2.0
+
+# Install the full OncoMark package (PyPI):
+# pip install OncoMark
